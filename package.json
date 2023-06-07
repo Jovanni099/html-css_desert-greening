@@ -1,0 +1,22 @@
+{
+  "name": "test_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "parcel index.html --open --port 1111"
+  },
+  "keywords": [
+    "AVIS",
+    "TV",
+    "channel",
+    "is",
+    "the",
+    "TOP"
+  ],
+  "author": "Mukanov Talgat",
+  "license": "ISC",
+  "devDependencies": {
+    "less": "^4.1.3"
+  }
+}
