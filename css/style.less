@@ -130,9 +130,64 @@ header {
         }
 
     }
+}
 
+.sec1 {
+    .container {
+        .block {
+            background-image: url(../assets/img/thunder_clouds.svg);
+            background-repeat: no-repeat;
+            background-size: cover;
 
+            .line2 {
+                .block {
+                    nav {
+                        ul {
+                            text-transform: capitalize;
+                            color: #FFFFFF;
+                            font-weight: 700;
+                            font-size: 16px;
+                            line-height: 23px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            padding: 22px 50px 65px 50px;
 
+                            li {
+                                &:first-child {
+                                    margin-right: 183px;
+                                }
 
+                                &:nth-child(7) {
+                                    &::after {
+                                        content: url('../assets/img/cart.svg');
+                                        position: relative;
+                                        top: 7px;
+                                        margin-left: 31px;
+                                    }
+                                }
 
+                                button {
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    border: 1px solid #FFFFFF;
+                                    border-radius: 5px;
+                                    width: 160px;
+                                    height: 42px;
+
+                                    &:after {
+                                        content: url('../assets/img/hug.png');
+                                        margin-left: 5px;
+                                        position: relative;
+                                        top: 2px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

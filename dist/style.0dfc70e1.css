@@ -105,6 +105,46 @@ header .line1 .block .right-panel .soc-icons {
 header .line1 .block .right-panel .soc-icons a:not(:last-child) {
   margin-right: 20px;
 }
+.sec1 .container .block {
+  background-image: url(thunder_clouds.dc75e078.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sec1 .container .block .line2 .block nav ul {
+  text-transform: capitalize;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 22px 50px 65px 50px;
+}
+.sec1 .container .block .line2 .block nav ul li:first-child {
+  margin-right: 183px;
+}
+.sec1 .container .block .line2 .block nav ul li:nth-child(7)::after {
+  content: url('cart.90be246f.svg');
+  position: relative;
+  top: 7px;
+  margin-left: 31px;
+}
+.sec1 .container .block .line2 .block nav ul li button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  width: 160px;
+  height: 42px;
+}
+.sec1 .container .block .line2 .block nav ul li button:after {
+  content: url('hug.6ff7ab71.png');
+  margin-left: 5px;
+  position: relative;
+  top: 2px;
+}
 
 
 /*# sourceMappingURL=/style.0dfc70e1.css.map */
