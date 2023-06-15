@@ -109,6 +109,18 @@ header .line1 .block .right-panel .soc-icons a:not(:last-child) {
   background-image: url(../assets/img/thunder_clouds.svg);
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+}
+.sec1 .container .block .line2 .block {
+  position: relative;
+}
+.sec1 .container .block .line2 .block .angle1 {
+  position: absolute;
+  width: 680px;
+  height: 855px;
+  background: #009368;
+  transform: rotate(37deg);
+  z-index: -1;
 }
 .sec1 .container .block .line2 .block nav ul {
   text-transform: capitalize;
@@ -144,4 +156,83 @@ header .line1 .block .right-panel .soc-icons a:not(:last-child) {
   margin-left: 5px;
   position: relative;
   top: 2px;
+}
+.sec1 .container .block .txt-block {
+  padding: 85px 254px 214px 106px;
+}
+.sec1 .container .block .txt-block .t1 {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 65px;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+.sec1 .container .block .txt-block .t2 {
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 65px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 39px;
+}
+.sec1 .container .block .txt-block .t3 {
+  margin-bottom: 30px;
+}
+.sec1 .container .block .txt-block .t3 h2 {
+  text-align: left;
+  font-weight: 600;
+  font-size: 31px;
+  line-height: 150%;
+  color: #FFFFFF;
+  margin-bottom: 15px;
+}
+.sec1 .container .block .txt-block .t3 p {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+.sec1 .container .block .txt-block .t4 {
+  margin-bottom: 30px;
+}
+.sec1 .container .block .txt-block .t4 button {
+  background: #ECA30C;
+  border-radius: 5px;
+  width: 175px;
+  height: 58px;
+}
+.sec1 .container .block .txt-block .trigger-block {
+  display: flex;
+  width: 70%;
+  gap: 60px;
+}
+.sec1 .container .block .txt-block .trigger-block .item {
+  display: flex;
+  justify-content: start;
+  margin-left: 32px;
+  margin: 0;
+  text-align: center;
+  align-items: center;
+}
+.sec1 .container .block .txt-block .trigger-block .item .t1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100%;
+  color: #FFFFFF;
+  margin-right: 15px;
+  border-bottom: 3px solid #ECA30C;
+  padding-bottom: 11px;
+  position: relative;
+  bottom: 16px;
+}
+.sec1 .container .block .txt-block .trigger-block .item .t2 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+  text-align: left;
+}
+.sec1 .container .white-panel {
+  background: #FFFFFF;
+  height: 101px;
 }
