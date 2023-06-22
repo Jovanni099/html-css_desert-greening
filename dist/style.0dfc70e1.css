@@ -309,6 +309,101 @@ header .line1 .block .right-panel .soc-icons a:not(:last-child) {
   background: #F49D3D;
   border-radius: 5px;
 }
+.sec3 {
+  padding-top: 104px;
+  padding-bottom: 100px;
+}
+.sec3 .block {
+  display: flex;
+  gap: 70px;
+}
+.sec3 .block .txt-block {
+  width: 377px;
+  margin-right: 108px;
+}
+.sec3 .block .txt-block h2 {
+  color: #213430;
+  font-size: 40px;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 48px;
+  margin-bottom: 24px;
+  text-align: left;
+}
+.sec3 .block .txt-block .t1 {
+  color: #000;
+  font-size: 16px;
+  font-family: Poppins;
+  line-height: 160%;
+  margin-bottom: 13px;
+}
+.sec3 .block .txt-block a {
+  color: #ECA30C;
+  text-align: center;
+  font-size: 16px;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 23px;
+  text-decoration-line: underline;
+  text-transform: capitalize;
+}
+.sec3 .block .block-partners {
+  padding-top: 55px;
+  padding-left: 40px;
+}
+.sec3 .block .block-partners .block-partners__first {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #E8E8E8;
+  padding-left: 15px;
+}
+.sec3 .block .block-partners .block-partners__first .t1 {
+  padding-left: 44px;
+  padding-right: 44px;
+  border-right: 1px solid #E8E8E8;
+}
+.sec3 .block .block-partners .block-partners__first .t2 {
+  border-right: 1px solid #E8E8E8;
+  padding: 0 15px 15px 15px;
+}
+.sec3 .block .block-partners .block-partners__first .t3 {
+  padding: 0 20px 15px 10px;
+  border-right: 1px solid #E8E8E8;
+}
+.sec3 .block .block-partners .block-partners__first .t4 {
+  padding-left: 47px;
+}
+.sec3 .block .block-partners .block-partners__second {
+  display: flex;
+}
+.sec3 .block .block-partners .block-partners__second .t5 {
+  border-right: 1px solid #E8E8E8;
+  padding: 12px 10px 12px 5px;
+}
+.sec3 .block .block-partners .block-partners__second .t6 {
+  border-right: 1px solid #E8E8E8;
+  padding: 12px 26px 12px 26px;
+}
+.sec3 .block .block-partners .block-partners__second .t7 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #E8E8E8;
+  padding: 16px 10px 12px 10px;
+}
+.sec3 .block .block-partners .block-partners__second .t8 {
+  border-right: 1px solid #E8E8E8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 20px 12px 28px;
+}
+.sec3 .block .block-partners .block-partners__second .t9 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 12px 12px 26px;
+}
 
 
 /*# sourceMappingURL=/style.0dfc70e1.css.map */
