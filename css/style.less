@@ -597,6 +597,7 @@ header {
                 font-weight: 600;
                 line-height: 48px;
                 margin-bottom: 12px;
+                width: 594px;
             }
 
             .t3 {
@@ -611,15 +612,22 @@ header {
                 width: 554px;
 
                 ul {
-                    list-style-image: url('../assets/img/list-marker.png');
+                    // list-style-image: url('../assets/img/list-marker.png');
 
                     li {
+                        display: flex;
                         color: #213430;
                         font-size: 18px;
                         font-family: Poppins;
                         font-weight: 600;
                         line-height: 25.2px;
                         margin-bottom: 11px;
+                        align-items: center;
+
+                        &:before {
+                            content: url('../assets/img/list-marker.png');
+                            margin-right: 17px;
+                        }
                     }
                 }
             }
