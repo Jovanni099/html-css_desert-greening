@@ -414,3 +414,112 @@ header .line1 .block .right-panel .soc-icons a:not(:last-child) {
   padding: 12px 12px 12px 26px;
   min-width: 196px;
 }
+.sec4 {
+  padding-top: 100px;
+}
+.sec4 h2 {
+  color: #213430;
+  text-align: center;
+  font-size: 40px;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 48px;
+  margin-bottom: 15px;
+}
+.sec4 h4 {
+  color: #213430;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 120px;
+}
+.sec4 .block {
+  display: flex;
+}
+.sec4 .block .img-block {
+  margin-right: 175px;
+  width: 520px;
+  height: 620px;
+  flex-shrink: 0;
+  position: relative;
+}
+.sec4 .block .img-block .img-block__child {
+  position: absolute;
+  bottom: -10px;
+  right: -85px;
+}
+.sec4 .block .img-block .img-block__icon {
+  position: absolute;
+  top: 50px;
+  left: -47px;
+}
+.sec4 .block .txt-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.sec4 .block .txt-block .t1 {
+  color: #009368;
+  font-size: 20px;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 26px;
+  margin-bottom: 5px;
+}
+.sec4 .block .txt-block .t2 {
+  color: #213430;
+  font-size: 40px;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 48px;
+  margin-bottom: 12px;
+}
+.sec4 .block .txt-block .t3 {
+  width: 60px;
+  height: 3px;
+  border-top: 3px solid #ECA30C;
+  margin-bottom: 16px;
+}
+.sec4 .block .txt-block .t4 {
+  margin-bottom: 20px;
+  width: 554px;
+}
+.sec4 .block .txt-block .t4 ul {
+  list-style-image: url('../assets/img/list-marker.png');
+}
+.sec4 .block .txt-block .t4 ul li {
+  color: #213430;
+  font-size: 18px;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 25.2px;
+  margin-bottom: 11px;
+}
+.sec4 .block .txt-block .t5 {
+  margin-bottom: 23px;
+  width: 579px;
+}
+.sec4 .block .txt-block .t5 p {
+  color: #6F7775;
+  font-size: 16px;
+  font-family: Poppins;
+  line-height: 22.4px;
+  margin-bottom: 15px;
+}
+.sec4 .block .txt-block a {
+  display: block;
+  color: #FFF;
+  text-align: center;
+  font-size: 16px;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 22.08px;
+  text-transform: capitalize;
+  border-radius: 5px;
+  background: #ECA30C;
+  width: 160px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
